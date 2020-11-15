@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'ConstantWidgets.dart';
@@ -28,7 +29,9 @@ class _AccountInfoState extends State<AccountInfo> {
                    crossAxisAlignment: CrossAxisAlignment.end,
                    children: [
                      IconButton(
-                       icon: Icon(Icons.menu,size: 30,),
+                       icon: Icon(
+                         CupertinoIcons.equal,
+                         size: 30,),
                        onPressed: (){scaffoldKey.currentState.openEndDrawer();},
                        color: Colors.lightBlue[800],
                      ),

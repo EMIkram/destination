@@ -83,7 +83,7 @@ class ConstantWidgets{
        onTap: (){},
        child: Container(
          width: MediaQuery.of(context).size.width/2.5,
-         height: MediaQuery.of(context).size.height/6,
+         height: MediaQuery.of(context).size.height/5.5,
          decoration: BoxDecoration(
            borderRadius: BorderRadius.circular(10.0),
            color: Colors.white,
